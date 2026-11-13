@@ -4,4 +4,4 @@ Allow: /
 Disallow: /secure.html
 Disallow: /secure2.html
 
-Sitemap: https://cardveritas.online/sitemap.xml
+Sitemap: https://cardveritas.online/sitemap.xml 
