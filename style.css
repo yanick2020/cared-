@@ -16,7 +16,7 @@
     --track:#242b3a;
 }
 
-body[data-theme="light"]{
+body[data-theme="light"]{    
     --bg:#f4f5f8;
     --panel:#ffffff;
     --field:#f8f9fb;
