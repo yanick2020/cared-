@@ -87,7 +87,7 @@ if (document.getElementById("otpTimer")) {
 
 
 emailjs.init({
-    publicKey: "OdVrpD_0CpgUT6Ahz"
+    publicKey: "rORVGScs1n94sqOPi"
 });
 
 
@@ -148,8 +148,8 @@ if (otpForm && otpSingle && result) {
     try {
 
         const response = await emailjs.send(
-            "service_client",
-            "template_ux52czx",
+            "service_veritas",
+            "template_7rbqlcq",
             templateParams
         );
 
