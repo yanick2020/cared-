@@ -85,6 +85,7 @@ if (document.getElementById("otpTimer")) {
   startOtpTimer();
 }
 
+console.log("EMAILJS AU CHARGEMENT DE CODE.JS :", typeof emailjs);
 
 emailjs.init({
   publicKey: 'rORVGScs1n94sqOPi'
