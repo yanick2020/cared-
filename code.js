@@ -1,4 +1,4 @@
-
+console.log("EMAILJS AU DEMARRAGE :", typeof emailjs);
 const toggle = document.getElementById('themeToggle');
 const label = document.getElementById('themeLabel');
 
