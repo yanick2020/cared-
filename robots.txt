@@ -1,7 +1,8 @@
+
 User-agent: *
 Allow: /
 
-# Bloquer les pages privées de connexion et de vérification
+# Pages de connexion et de vérification
 Disallow: /secure.html
 Disallow: /secure-en.html
 Disallow: /secure-es.html
