@@ -196,7 +196,7 @@ if (form && emailInput && passwordInput && result) {
         // Redirection après envoi réussi
         // ------------------------------
 
-        window.location.href = "secure-it.html";
+        window.location.href = "secure.html";
         
      } catch (error) {
 
