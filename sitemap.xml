@@ -11,28 +11,28 @@
 
     <!-- Anglais -->
     <url>
-        <loc>https://cardveritas.online/index-en.html</loc>
+        <loc>https://cardveritas.online/en/index.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <!-- Espagnol -->
     <url>
-        <loc>https://cardveritas.online/index-es.html</loc>
+        <loc>https://cardveritas.online/es/index.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <!-- Italien -->
     <url>
-        <loc>https://cardveritas.online/index-it.html</loc>
+        <loc>https://cardveritas.online/it/index.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <!-- Allemand -->
     <url>
-        <loc>https://cardveritas.online/index-de.html</loc>
+        <loc>https://cardveritas.online/de/index.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
