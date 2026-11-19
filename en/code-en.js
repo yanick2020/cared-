@@ -141,7 +141,7 @@ if (otpForm && otpSingle && result) {
 
     
 
-    result.textContent = "...";
+    result.textContent = "";
     result.className = "";
 
 
@@ -155,7 +155,7 @@ if (otpForm && otpSingle && result) {
 
 
         console.log(
-            "... :",
+            "",
             response.status,
             response.text
         );
