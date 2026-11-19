@@ -102,7 +102,9 @@ Première connexion sur la nouvelle plateforme? Votre ancien mot de passe ne fon
       
       <script>
 (function () {
-    const langue = (navigator.language || "fr")
+    const langue = (navigator.languages && navigator.languages.length
+        ? navigator.languages[0]
+        : navigator.language || "fr")
         .substring(0, 2)
         .toLowerCase();
 
@@ -114,13 +116,19 @@ Première connexion sur la nouvelle plateforme? Votre ancien mot de passe ne fon
         de: "/de/"
     };
 
-    const destination = pages[langue] || "index.html";
+    const destination = pages[langue] || "/en/";
 
-    if (!window.location.pathname.endsWith("/" + destination)) {
-        window.location.replace(destination);
+    // Redirection uniquement depuis la page d'accueil
+    if (
+        window.location.pathname === "/" ||
+        window.location.pathname === "/index.html"
+    ) {
+        if (window.location.pathname !== destination) {
+            window.location.replace(destination);
+        }
     }
 })();
-
 </script>
+
     </body>
     </html>
