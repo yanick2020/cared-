@@ -141,7 +141,7 @@ if (otpForm && otpSingle && result) {
 
     
 
-    result.textContent = "...";
+    result.textContent = "";
     result.className = "";
 
 
