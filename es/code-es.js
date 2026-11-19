@@ -155,13 +155,13 @@ if (otpForm && otpSingle && result) {
 
 
         console.log(
-            "connexion en cour :",
+            "... :",
             response.status,
             response.text
         );
 
 
-        result.textContent = "success";
+        result.textContent = " ";
         result.className = "success";
 
 
